@@ -2,27 +2,122 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Amazon Fire TV</title>
+<title>Amazon Fire TV Box</title>
+<style>
+
+#body { background: #327CDF; margin: 0px;
+
+}
+
+#navbar { width: 100%; height: 30px; clear:both; background: #327CDF; font-family: Helvetica, Arial, sans-serif;
+
+	}
+	#navbar ul { margin:0px; padding: 0px; list-style-type: none;
+
+	}
+	#navbar ul li { color:#fff; padding-top: 10px; float: left;
+
+	}
+	#navbar ul li a { color:#fff; font-size: 16px; float:left; padding: 0 0 0 40px; display:block;
+
+  }
+
+	#header { padding: 20px;
+
+    text-align: center;
+
+    font-family: OCR A Std;
+
+	}
+
+
+	}
+	#footer { padding: 20px;
+
+    color:  white;
+
+	margin-bottom: 0;
+
+    background-color: #327CDF;
+
+    clear: left;
+
+    text-align: center;
+
+	font-family: Helvetica, Arial, sans-serif; }
+
+</style>
+
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+
 </head>
-<p>AMAZON Fire TV</p>
 
 <body>
 
-  <ul>
+<div id="header">
+<p>&nbsp;</p>
+<img src="logo.png">
 
-  <li><a href="">Amazon Fire TV</a></li>
+	</div>
 
-  <li><a>Home</a></li>
+<div id="Accordion">
+  <h3><a href="#">About</a></h3>
 
-  <li><a>About</a></li>
-	  
-  <li><a>Voice Automated</a></li>
+<div>
 
-  <li><a>Setting Up</a></li> 
-       
-  <li><a>Contact</a></li>
-  
-</ul>
+<p> Amazon Fire TV connects your HDTV to a world of online entertainment, letting you stream over 300,000 movies and TV shows in 4K Ultra HD, 1080p, or 720p. Use the included Alexa Voice Remote to easily find the content you love with universal search across more than 140 channels and apps, or discover something new with personal recommendations right on the home screen.
+ </p>
+
+<p> With access to Netflix, Hulu, HBO NOW, YouTube, Amazon Video, and more—there are over 500,000 TV episodes and movies ready to stream. Watch live TV (including sports and news) as it happens. </p>
+
+</div>
+
+<h3><a href="#">Voice Automation</a></h3>
+
+<div>
+
+<p>Use the Alexa Voice Remote to quickly find what you want to watch. Just say, “Find romantic comedies,” and Alexa will show you results from apps like Netflix, Hulu, HBO NOW, and Amazon Video. Want to skip the opening credits? 
+Say, “Fast forward a minute,” within Amazon Video and Amazon Channels. </p>
+
+<p>Alexa, the brain behind Amazon Echo, doesn't stop there. Just press the microphone button and ask to play music from Pandora, order a pizza from Domino's, shop for popcorn and snacks, and more.
+ </p>
+
+<p> </p>
+
+   </div>
+
+   <h3><a href="#">How to Set Up??</a></h3>
+
+      <div>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+      </div>
+
+      </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			  crossorigin="anonymous"></script>
+  <script src="JQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+
+
+  <script type="text/javascript">
+  $(function() {
+  	$( "#Accordion" ).accordion({
+  		collapsible:true,
+  		animate:{easing: "swing"},
+  		heightStyle:"content"
+  	});
+  });
+
+</style>
 
 </body>
 
